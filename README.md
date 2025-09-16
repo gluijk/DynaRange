@@ -1,5 +1,6 @@
 # DynaRange
-A new, modern and easy to use tool to measure camera sensor's dynamic range.
+A new, modern and easy to use tool to measure camera sensor's Dynamic Range.
+
 Under the hood, DynaRange's engine (rango) includes high precision features not found in other Dynamic Range calculation tools such as:
 - Accurate RAW black and saturation point calculation with decimal figures (unlike most existint software that just use metadata integer values)
 - Careful selection of valid patches ensuring noise readings are valid for Dynamic range calculation
