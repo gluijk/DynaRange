@@ -5,8 +5,8 @@ Under the hood, DynaRange's engine (rango) includes high precision features not 
 - Black and saturation points calculation with decimal precision (unlike most existing software that just use metadata integer values)
 - Careful selection of valid patches ensuring noise readings are valid for DR calculation
 - Construction of the sensor's SNR curves which represent the best picture of sensor's performance
-- Derived DR calculation for any SNR threshold and for any normalization
-- Easy to explain resolution normalization process based on standard noise estatistics
+- Derived DR calculation for any SNR threshold and for any resolution normalization
+- Normalization process based on standard noise statistics
 
 
 The basic usage will be as follows:
