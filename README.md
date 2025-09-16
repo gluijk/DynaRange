@@ -2,7 +2,7 @@
 A new, modern and easy to use tool to measure camera sensor's Dynamic Range.
 
 Under the hood, DynaRange's engine (rango) includes high precision features not found in other Dynamic Range calculation tools such as:
-- Accurate RAW black and saturation point calculation with decimal figures (unlike most existint software that just use metadata integer values)
+- Accurate black and saturation points calculation with decimal figures (unlike most existing software that just use metadata integer values)
 - Careful selection of valid patches ensuring noise readings are valid for Dynamic range calculation
 - Construction of the sensor's SNR curves which represent the best picture of sensor's performance
 - Derived Dynamic Range calculation for any SNR threshold and for any normalization
