@@ -135,8 +135,6 @@ TODO 11: pequeñas correcciones en el GUI:
 
 TODO 12: añadir la obtencion del metadato de ISO del RAW. Esto es lo que me dice la IA:
 
-C++
-
 #include <libraw/libraw.h>
 #include <iostream>
 
@@ -155,7 +153,6 @@ int main(int argc, char *argv[]) {
     }
 
     ret = rawProcessor.unpack();
-
     if (ret != LIBRAW_SUCCESS) {
         std::cerr << "Error al descodificar el archivo: " << libraw_strerror(ret) << std::endl;
         return 1;
@@ -163,11 +160,8 @@ int main(int argc, char *argv[]) {
 
     // Acceder al valor de ISO
     float iso_speed = rawProcessor.imgdata.other.iso_speed;
-
     std::cout << "El valor de ISO es: " << iso_speed << std::endl;
-
     rawProcessor.recycle();
-
     return 0;
 }
 
